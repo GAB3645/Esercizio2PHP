@@ -25,9 +25,9 @@
     echo "<p>NUMERO GIORNI: $numGiorni</p>";
     echo "<br>";
 
+    $risultatoFormattato = number_format($risultato, 2);
 
-
-    echo "<h2 style='color:green'>L'interesse calcolato è di $risultato €</h2>";
+    echo "<h2 style='color:green'>L'interesse calcolato è di $risultatoFormattato €</h2>";
 
     ?>
 
